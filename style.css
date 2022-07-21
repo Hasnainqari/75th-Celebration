@@ -1,0 +1,101 @@
+@font-face {
+    font-family: Anton;
+    src: url(Anton/Anton-Regular.ttf);
+}
+
+* {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Anton",sans-serif;
+}
+
+body {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #0f0c15;;
+}
+.text-wrap {
+    position: relative;
+    margin: 0 5px;
+}
+
+.tittle {
+    position: relative;
+    border: 1px solid #dddd;
+    border-bottom: none;
+    padding-bottom: 15px;
+}
+
+.tittle span {
+    color: #676767;
+    position: absolute;
+    top: -12px;
+    background-color: #CCC;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0 10px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.text-wrap h2 {
+    font-weight: 900;
+    font-size: 25vw;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    line-height: 1em;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    background-size: cover;
+    background-position: center;
+
+}
+.text-wrap.Rain h2{
+    background-image: url(image/rain.jpg);
+}
+.text-wrap.Locust h2{
+    background-image: url(image/locust.jpg);
+}
+.text-wrap.Covid h2{
+    background-image: url(image/covid.jpg);
+}
+.text-wrap.Train h2{
+    background-image: url(image/train.jpg);
+}
+.text-wrap.Plane h2{
+    background-image: url(image/plane.jpg);
+}
+.bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 10px 0;
+}
+.together span {
+    color: #06bd03;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 3em;
+    text-shadow: 3px 3px 15px rgba(0,0,0,0.5);
+    text-transform: uppercase;
+
+}
+
+.independence span {
+	color: #fff;
+    font-size: 3em;
+    display: inline-block;
+    font-family: sans-serif;
+	background: -webkit-linear-gradient(left,#fff, #06bd03);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}

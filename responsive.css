@@ -1,0 +1,30 @@
+@media (min-width: 280px) and (max-width: 480px) {
+    .bottom {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        padding: 8px 0;
+    }
+    .together span {
+        color: #06bd03;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+        font-size: 1.5em;
+        text-shadow: 3px 3px 15px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+    
+    }
+    
+    .independence span {
+        color: #fff;
+        font-size: 1.5em;
+        display: inline-block;
+        font-family: sans-serif;
+        background: -webkit-linear-gradient(left,#fff, #06bd03);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+    }
+}
