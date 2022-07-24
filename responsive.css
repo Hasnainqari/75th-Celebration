@@ -9,7 +9,7 @@
         padding: 8px 0;
     }
     .together span {
-        color: #06bd03;
+        color: #fff;
         font-family: sans-serif;
         letter-spacing: 1px;
         font-size: 1.5em;
@@ -19,12 +19,15 @@
     }
     
     .independence span {
-        color: #fff;
+        color: #000;
         font-size: 1.5em;
+        letter-spacing: 1px;
         display: inline-block;
         font-family: sans-serif;
-        background: -webkit-linear-gradient(left,#fff, #06bd03);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-    }
+        text-shadow: 3px 3px 15px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        background: -webkit-linear-gradient(left,#fff, #06bd03); 
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+   }
 }
