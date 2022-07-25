@@ -8,7 +8,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: "Anton",sans-serif;
+    font-family: "Anton", sans-serif;
 }
 
 body {
@@ -19,6 +19,7 @@ body {
     min-height: 100vh;
     background-color: #0f0c15;
 }
+
 .text-wrap {
     position: relative;
     margin: 0 5px;
@@ -43,6 +44,40 @@ body {
     font-size: 12px;
     text-align: center;
 }
+.i_large,
+.i_medium,
+.i_small {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.i_large {
+    background: url(./particules_large.png) repeat 0px 0px;
+    animation: dropFlowParticles 2s linear infinite;
+}
+
+.i_medium {
+    background: url(./particules_medium.png) repeat 0px 0px;
+    animation: dropFlowParticles 12s linear infinite;
+}
+
+.i_small {
+    background: url(./particules_small.png) repeat 0px 0px;
+    animation: dropFlowParticles 27s linear infinite;
+}
+
+@keyframes dropFlowParticles {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 0 413px;
+    }
+}
 
 .text-wrap h2 {
     font-weight: 900;
@@ -50,27 +85,33 @@ body {
     letter-spacing: 3px;
     text-transform: uppercase;
     line-height: 1em;
-    -webkit-background-clip: text; 
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: cover;
     background-position: center;
 
 }
-.text-wrap.Rain h2{
+
+.text-wrap.Rain h2 {
     background-image: url(image/rain.jpg);
 }
-.text-wrap.Locust h2{
+
+.text-wrap.Locust h2 {
     background-image: url(image/locust.jpg);
 }
-.text-wrap.Covid h2{
+
+.text-wrap.Covid h2 {
     background-image: url(image/covid.jpg);
 }
-.text-wrap.Train h2{
+
+.text-wrap.Train h2 {
     background-image: url(image/train.jpg);
 }
-.text-wrap.Plane h2{
+
+.text-wrap.Plane h2 {
     background-image: url(image/plane.jpg);
 }
+
 .bottom {
     position: absolute;
     bottom: 0;
@@ -80,22 +121,29 @@ body {
     text-align: center;
     padding: 10px 0;
 }
+
 .together span {
+    top: 60px;
     color: #06bd03;
     font-family: sans-serif;
     letter-spacing: 1px;
     font-size: 3em;
-    text-shadow: 3px 3px 15px rgba(0,0,0,0.5);
+    text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
     text-transform: uppercase;
 
 }
 
+.audio {
+    top: 80px;
+}
+
 .independence span {
-	color: #fff;
+    top: 60px;
+    color: #fff;
     font-size: 3em;
     display: inline-block;
     font-family: sans-serif;
-	background: -webkit-linear-gradient(left,#fff, #06bd03);
-  	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(left, #fff, #06bd03);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

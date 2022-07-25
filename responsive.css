@@ -17,6 +17,18 @@
         text-transform: uppercase;
     
     }
+    .tittle span {
+        color: #676767;
+        position: absolute;
+        top: -12px;
+        background-color: #CCC;
+        display: inline-block;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 0 6px;
+        font-size: 8px;
+        text-align: center;
+    }
     
     .independence span {
         color: #000;
