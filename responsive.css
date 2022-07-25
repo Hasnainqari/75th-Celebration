@@ -6,13 +6,14 @@
         left: 50%;
         transform: translateX(-50%);
         text-align: center;
-        padding: 8px 0;
+        padding: 7px 0;
     }
     .together span {
         color: #fff;
         font-family: sans-serif;
         letter-spacing: 1px;
         font-size: 1.5em;
+        bottom: 20px;
         text-shadow: 3px 3px 15px rgba(0,0,0,0.5);
         text-transform: uppercase;
     
